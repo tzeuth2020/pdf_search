@@ -33,3 +33,4 @@
 /Users/thomas/Documents/SummerProject/PdfSearch/obj/Debug/net8.0/PdfSearch.pdb
 /Users/thomas/Documents/SummerProject/PdfSearch/obj/Debug/net8.0/PdfSearch.genruntimeconfig.cache
 /Users/thomas/Documents/SummerProject/PdfSearch/obj/Debug/net8.0/ref/PdfSearch.dll
+/Users/thomas/Documents/SummerProject/PdfSearch/obj/Debug/net8.0/PdfSearch.sourcelink.json

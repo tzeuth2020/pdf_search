@@ -28,7 +28,6 @@ public class PdfHandler() {
         //posts to ocr api and parses response
         HttpResponseMessage response = await httpClient.PostAsync(apiURL + "/Parse/Image", form);
         string strResponse = await response.Content.ReadAsStringAsync() ?? throw new FileNotFoundException();
-        Console.Write(strResponse);
 
 
         Rootobject ocrResult = JsonSerializer.Deserialize<Rootobject>(strResponse) ?? throw new FileNotFoundException();
@@ -56,7 +55,7 @@ public class PdfHandler() {
 
           
     // initalizes the dtirecory for a given group
-    public static void initGroupDirectory(string group) {
+    private static void initGroupDirectory(string group) {
         
         Console.Write('\n' + "Went in initGroupDirectory group: " + Directory.GetCurrentDirectory() + '\n');
         if (!Directory.Exists(Path.Combine("./examples/txt_files", group))) {
@@ -73,6 +72,10 @@ public class PdfHandler() {
 
     // checks if zip file only cotntaines pdfs
     public static bool checkZipExtension(IFormFile file) {
+        if (file.ContentType != "application/zip") {
+            throw new ArgumentException("file must be a zip");
+        }
+        
         using (var zip = new ZipArchive(file.OpenReadStream())) {
             foreach (ZipArchiveEntry entry in zip.Entries) {
                 if (!entry.FullName.EndsWith("pdf")) {

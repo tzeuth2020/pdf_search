@@ -11,8 +11,7 @@ namespace Controllers;
         private static readonly Logger Logger = LogManager.GetCurrentClassLogger();
         //Route for taking pdf path and group number, running through ocr and uploading text file
         [HttpPost]
-        public async Task<IActionResult> Upload(IFormFile uploadFile, string group) {
-            Logger.Debug("Upload - Begin");
+        public async Task<IActionResult> Upload([FromForm] IFormFile uploadFile, string group) {
             Logger.Info($"/Submission/Uplaod - UploadFile({uploadFile.FileName}), Group({group})");
 
             try {
@@ -42,7 +41,6 @@ namespace Controllers;
                 } else {
                     throw new ArgumentException("Invalid file type uploaded");
                 }
-                Logger.Debug("Upload - ended");
                 return Ok("File uploaded and parsed succesfully");
 
             } catch(ArgumentException e) {
@@ -59,6 +57,7 @@ namespace Controllers;
         //lists the name of all pdfs successfully uploaded in a given group, and removes the path and file extension
         [HttpGet]
         public IActionResult TxtNames(string group) {
+            Logger.Info($"/Submission/TxtNames - Group({group})");
             string path = Path.Join("examples/txt_files", group);
             if (!Directory.Exists(path)) {
                 return BadRequest("No group with name " + group);
