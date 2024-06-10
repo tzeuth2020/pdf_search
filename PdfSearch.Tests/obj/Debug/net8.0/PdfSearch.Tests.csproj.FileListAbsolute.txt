@@ -111,3 +111,4 @@
 /Users/thomas/Documents/SummerProject/PdfSearch.Tests/obj/Debug/net8.0/PdfSearch.Tests.pdb
 /Users/thomas/Documents/SummerProject/PdfSearch.Tests/obj/Debug/net8.0/PdfSearch.Tests.genruntimeconfig.cache
 /Users/thomas/Documents/SummerProject/PdfSearch.Tests/obj/Debug/net8.0/ref/PdfSearch.Tests.dll
+/Users/thomas/Documents/SummerProject/PdfSearch.Tests/obj/Debug/net8.0/PdfSearch.Tests.sourcelink.json
