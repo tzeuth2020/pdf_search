@@ -1,0 +1,87 @@
+CIS 320 - HW7
+Thomas Zeuthen
+Collaborators: Megan Yang
+May 21, 2024
+1. (a) Consider a directed graph with three vertices s, v, and t.
+There are 2 edges one from s to u and one from u to t.
+If the lower capacity of s to v is say 10 and the capacity of o to t is less than 10 say 5
+then there are no feasible flows since the flow into v is at least 10 while the flow out of
+v is at most 5 which violates one of the flow conditions.
+(b) Given the feasible flow we can run a typical Max flow algorithm starting from that feasible
+flow like normal but with a modified residual graph as follows.
+In the residual graph back edges would now have capacity f(e) - 1(e) instead of 1(e)
+so that you do not push back so much flow that the edge has less than l(e) flow going
+through it. Forward edges still have capacity c(e) - f(e).
+Running the Edmonds-Karp algorithm as normal with this residual graph will find the
+max flow in time O(nm}).
+(c) First we will show that this expression is a lower bound on the value of the max flow in
+G.
+Assume for contradiction that there is a flow greater than this value, that is for every
+cut S, V -S
+> c(4,0) -
+2 1(2,0) is less than f.
+(U,U) UES,UES
+(U,V) UES,UES
+We know from class that f is at least the flow into S minus the flow out of S (for any
+cut S) (if this was not in class this was proved in the textbook). The flow out of S is at
+most the sum of the capacities of the edges out of S since that is the most flow all of the
+edges out of S can hold. The flow into S is at least the sum of the lower bounds of the
+edges going into since that is the least amount of flow these edges can hold.
+Therefore the expression above provides an upper bound on f. Since it is true for all
+cuts S we can say f is upper bounded by the cut that minimizes this expression.
+Now it remains to show that f can equal this value.
+Consider the cut made in the residual graph Gf after our algorithm described in part b
+terminates.
+Let S be the cut that is formed where S is the vertices reachable from s in Gf when
+the algorithm terminates and T is the set of all other vertices. (we know this cut forms
+because the algorithm terminates when the graph is disconnected).
+1
+Consider the value of the flow in and out of S when the algorithm terminates. Since
+there are no edges out of S' in Gf that means the flow value on each of these edges is
+equal to c(e) since that is the value of the flow out of these edges (since the edges in the
+residual graph have capacity c(e) - f(e).
+Since there are no edges into S in Gf that means the value of the flow on these edges
+must be l(e) since the capcity of these edges are f(e) - 1(e) to make these 0 f(e) must
+be 0.
+Therefore the sum of the flow out of S' is the capacities out of S and the sum of the flows
+into S is the sum of the capcities into S' so f will reach this value.
+Since f will be equal to the expression above and it is an upper value on f this is the
+value of the max flow. Since the proof relies on the residual graph described in b it proves
+our algorithm to be correct.
+2
+2. (a) Run Edomonds Karp on G to find the max flow. Then to get a feasable flow in G for
+every edge e, f(e) = f(ē + 1(e) where f(ē) is the flow in the corresponding edge in G.
+Then we iterate through all of the edges and vertices in G to check if the flow in G has
+value of L as defined in the problem. if it does not return there is no such flow. Otherwise
+output the result above.
+(b) First we will show that the flow meets the capacity constraints. Clearly it is greater than
+the lower bound on the edge since f(ē) has to be positive and we add it to 1(e).
+It also cannot be greater than c(e), since the capacity on every edge in G is at most
+c(e) - l(e) when we add l(e) units of flow to it it will not be greater than c(e).
+Now we will show the flow conservation properties are met.
+Consdier an arbitrary vertex v in G. Since the value of the flow is L, based on how the
+edge are defined the flow into V is the sum of the lower bounds of all edges going into c
+(given from all edges going to v from s) plus the sum of the value of the flow of all edges
+going into u that are not s'.
+This is equal to the sum of the flow of all edges going out of u since G is a valid flow.
+This is equal to the sum of the lower bounds of all edges going out of v (given by all
+edges (v,t') since the value of the flow is T) plus the sum of the flow on all edges going
+out of u in G.
+This shows that the flow going in and out of any vertex in G will be the same as well
+since for every edge we add the lower bound of that edge plus the value of the flow given
+in G and outof the edge we have the value of the lower boudn of each edge plus the value
+of the flow given in G.
+(c) Suppose we have a valid flow in G.
+This means that for all verteces o the sum of the values of the flows in G going into v
+plus the lower bound of all edges going into is equal to the sum of the values of the flows
+is equal to the sum of the lower bound of all the edges going out of u plus the sum of the
+flows in & going out of u for flow conservation to hold.
+Since the sum of the flows going into and out of G are clearly the same in G, we can
+consider the edges in G that go from s' to v. Clearly the sum of these values has to equal
+the sum of the lower bounds of all the edges into u and the sum of the edges from o to
+t' has to equal the sum of the lower bounds of these edges since these ar the only values
+for which flow conservation holds (since it holds for G as stated above).
+Therefore the value of the flow for any edges' to v is the lower bound of the corresponding
+edge. This means that the flow of G is equal to L since the sum of the value of all the
+flows out of the source is clearly equal to L.
+3

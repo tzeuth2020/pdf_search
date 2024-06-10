@@ -1,0 +1,52 @@
+CIS 1600 22F
+Homework 11T
+Collaborators: None
+Thomas Zeuthen
+Recitation Number: 211
+Q1. Our sample space can be defined as an ordered list of four integers from one to six with the first
+integer representing the result of the first die, the second the second die, and so on.
+Let M be a random variable that represent the greatest die out of all four.
+Let Di represent the result of the first die, let Da represent the result of the second die, and so
+on up to Da
+Let Ik be an indicator variable that equals 1 if the greatest value of the die rolls is at least k for
+some integer k between 1 and 6 and one otherwise.
+P(Ik = 1) = P(DIU D2 UDUDa ≥ k).
+We can calculate this probability using the complement rule and DeMorgan's law.
+P/DIUDUDUDa>K) =1-P(DINDaNDanDa <K)
+Each die roll is clearly independent since each die roll is fair so knowing the result of one one die
+will give you a clue as to the result of the other. Therefore we can calculate the probability of
+the intersection by multiplying the probability of the individual die rolls together.
+P(Di < k) is the probability that a given die roll is between 1 and k - 1. There are k - 1 desired
+outcomes over 6 possible outcomes so P(Di < k) =
+Therefore P(DUDUDsUDA≥k) =1-P/DINDanDanD<1) = 1-(k-1
+E(1) = 0* P(IR = 0) + 1*P(IN = 1) = 1- k-1
+Now we will find E(M).
+Consider the scenario where M = j for some integer j between 1 and 6.
+If M = j this means the maximum value of the dice rolls is greater than or equal to all of the
+values from 1 to j including j. So Ik = 1 for all values k from one to j, and Ik = 0 for all other
+values of k.
+Therefore <I = j so [Ik = M since M = j.
+Therefore we can use the linearity of expectation to find M
+Q2. The sample space for this question would be all integers from 10 to 199999 that could be made
+by this process.
+D be a random variable that reprsents the number of digits in the number
+Let Ik be a random variable that equals 1 if the kth position has a digit and 0 otherwise. k
+ranges from 1 to 6. For example for the number 134 I1 to I would equal 1 and I to I6 would
+equal 0.
+Next we will find P (Ik = 1)
+For k = 1 and k = 2 this is equal to 1 since the first digit is always one and a second digit is
+always chosen.
+For 3 ≥ k ≥ 6 P(Ik = 1) is the probability that every digit before position k is odd.
+The first digit is always odd since it is one.
+For digits 2 to k - 1, since every digit is randomly chosen and there are an equal number of even
+and odd digits, the probability the digit is odd is
+There are k - 1 - 2 + 1 = k - 2 digits between k - 1 and 2 inclusive. Since each digit is
+independently chosen the probability all digits before k are odd is 2k-2 which is the same as
+P (IK = 1).
+E(Ik) = 0* P(Ik= 0) + 1* P(Ik=1) = 1 if k = 1,2 and 2k-2 if k = 3,4,5,6
+D=LIk since that gives the total number of digits.
+By the linearity of expectation E(D) = S E(Ik) = 1+1+51
+324-2=2+51
+Thomas Zeuthen
+2
+Recitation time: 211 - Homework 11T
