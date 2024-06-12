@@ -1,7 +1,7 @@
 using SubmissionServices;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-namespace pdf_search.Tests;
+namespace pdfSearch.Tests;
 
 public class FileUploadTests {
     [Fact]
