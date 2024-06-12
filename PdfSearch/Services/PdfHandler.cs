@@ -28,8 +28,8 @@ public class PdfHandler() {
         //posts to ocr api and parses response
         HttpResponseMessage response = await httpClient.PostAsync(apiURL + "/Parse/Image", form);
         string strResponse = await response.Content.ReadAsStringAsync() ?? throw new FileNotFoundException();
-
-
+        Console.Write(strResponse);
+        
         Rootobject ocrResult = JsonSerializer.Deserialize<Rootobject>(strResponse) ?? throw new FileNotFoundException();
 
         //check if the body of the pdf is null
@@ -75,7 +75,7 @@ public class PdfHandler() {
         if (file.ContentType != "application/zip") {
             throw new ArgumentException("file must be a zip");
         }
-        
+
         using (var zip = new ZipArchive(file.OpenReadStream())) {
             foreach (ZipArchiveEntry entry in zip.Entries) {
                 if (!entry.FullName.EndsWith("pdf")) {

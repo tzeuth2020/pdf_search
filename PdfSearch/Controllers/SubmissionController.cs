@@ -105,6 +105,23 @@ namespace Controllers;
             return Ok(name + " deleted.");
         }
 
+        // returns the text file from a given name and group
+        [HttpGet]
+        public IActionResult GetTxt(string group, string name) {
+            Logger.Info($"/Submission/RetTxt - Group({group}, Name({name}))");
+
+            string path = Path.Join(group, name);
+            path = Path.Join("examples/txt_files", path);
+            FileStream searchFile;
+            try {
+                searchFile = System.IO.File.Open(path, FileMode.Open);
+            } catch (FileNotFoundException) {
+                return BadRequest($"No file {group}/{name}");
+            }
+
+            return Ok(searchFile);
+
+        }
 
         
 
