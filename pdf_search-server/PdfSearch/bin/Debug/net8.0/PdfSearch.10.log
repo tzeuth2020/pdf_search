@@ -1,0 +1,6 @@
+2024-06-12 17:48:24.1948|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(testGroup, Name(test3.txt))
+2024-06-12 17:48:38.0765|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(testGroup, Name(test3.txt))
+2024-06-12 17:48:39.2491|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(testGroup, Name(test3.txt))
+2024-06-12 17:48:39.9807|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(testGroup, Name(test3.txt))
+2024-06-12 17:49:21.1038|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(testGroup1, Name(blank.txt))
+2024-06-12 17:49:35.7690|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(testGroup1, Name(blankDoc.txt))

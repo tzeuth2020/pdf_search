@@ -1,0 +1,2 @@
+2024-06-12 16:44:26.0600|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.txt), Pattern(expectation), Limit(1)
+2024-06-12 16:50:12.7313|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.txt), Pattern(probability), Limit(1)
