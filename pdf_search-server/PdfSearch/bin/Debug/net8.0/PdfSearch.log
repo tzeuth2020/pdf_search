@@ -1,1 +1,13 @@
-2024-06-27 17:41:35.3188|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test2.pdf), Group(test2)
+2024-07-09 13:46:15.4217|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(fixed, Name(test2.pdf))
+2024-07-09 13:46:23.9226|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(fixed, Name(test2.pdfasa))
+2024-07-09 13:46:32.0957|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(fixed, Name(test2.pdf))
+2024-07-09 13:46:37.6595|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(fixeddedd, Name(test2.pdf))
+2024-07-09 13:48:53.8729|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdf), Pattern(proof), Limit(2)
+2024-07-09 13:49:04.8007|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdf), Pattern(proof), Limit(2)
+2024-07-09 13:49:12.3704|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdf), Pattern(proof), Limit(2)
+2024-07-09 13:49:17.4856|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdf), Pattern(proof), Limit(2)
+2024-07-09 13:49:32.4202|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdfs), Pattern(proof), Limit(2)
+2024-07-09 13:49:32.4927|ERROR|Controllers.SearchController|Question 0 in group fixed and submission test2.pdfs does not exist.
+2024-07-09 13:49:53.9953|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixedl), Name(test2.pdf), Pattern(proof), Limit(2)
+2024-07-09 13:49:54.0565|ERROR|Controllers.SearchController|Question 0 in group fixedl and submission test2.pdf does not exist.
+2024-07-09 13:50:20.9424|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdf), Pattern(proof), Limit(2)

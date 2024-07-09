@@ -1,0 +1,3 @@
+2024-06-19 15:05:34.9277|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(test, Name(testDoc.txt))
+2024-06-19 15:07:45.4277|INFO|Controllers.SearchController|/Search/FindMatches - Group(test), Name(test3.txt), Pattern(expectation), Limit(2)
+2024-06-19 15:08:30.4867|INFO|Controllers.SearchController|/Search/FindMatches - Group(test), Name(test3.txt), Pattern(expectatill), Limit(2)

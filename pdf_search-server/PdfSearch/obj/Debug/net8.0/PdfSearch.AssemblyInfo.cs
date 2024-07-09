@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PdfSearch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c686380acfc651a38674cf56bf2bfde7df84e8be")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b45843c7957001e1717309bdaa942c3843377c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PdfSearch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PdfSearch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

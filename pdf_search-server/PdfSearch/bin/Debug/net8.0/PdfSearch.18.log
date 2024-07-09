@@ -1,3 +1,1 @@
-2024-06-10 16:09:18.0026|DEBUG|Controllers.SubmissionController|Upload - Begin
-2024-06-10 16:09:18.0867|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test3.pdf), Group(test)
-2024-06-10 16:09:20.0966|DEBUG|Controllers.SubmissionController|Upload - ended
+2024-06-27 17:28:12.4295|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test2.pdf), Group(test)
