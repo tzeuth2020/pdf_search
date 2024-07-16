@@ -1,6 +1,18 @@
-2024-07-09 10:36:41.8258|INFO|Controllers.SubmissionController|/Submission/RemoveGroup - Group(test)
-2024-07-09 10:37:13.8520|INFO|Controllers.SubmissionController|/Submission/RemoveGroup - Group(test3)
-2024-07-09 10:49:55.7494|INFO|Controllers.SubmissionController|/Submission/RemoveGroup - Group(test1)
-2024-07-09 10:51:28.2558|INFO|Controllers.SubmissionController|/Submission/RemoveSubmission - Group(fixed, Name(test2))
-2024-07-09 10:52:42.0877|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(testMultiple.zip), Group(remove)
-2024-07-09 10:57:19.2287|INFO|Controllers.SubmissionController|/Submission/RemoveGroup - Group(remove)
+2024-07-10 15:42:36.3257|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-10 15:42:47.9192|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-10 15:45:59.6201|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-10 15:46:01.3804|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-10 15:46:07.2621|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-10 15:46:46.4032|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-10 15:46:48.1543|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-10 15:46:49.4008|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-10 15:46:50.5205|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-10 15:46:51.5062|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-10 15:58:42.7339|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-10 15:58:44.8240|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-10 15:59:18.1206|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-10 15:59:19.6653|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-10 16:50:16.4549|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-10 16:50:18.8306|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-10 16:51:55.6275|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-10 16:51:58.6051|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)

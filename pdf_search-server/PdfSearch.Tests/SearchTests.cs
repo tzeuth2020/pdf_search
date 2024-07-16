@@ -1,10 +1,17 @@
-using SearchServices;
+using pdf_search.Services.Interfaces;
 using System.IO;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 namespace pdfSearch.Tests;
 
 public class SearchTests {
+
+    private readonly ISubmissionService _submissionService;
+
+    public SearchTests(ISubmissionService submissionService) {
+        _submissionService = submissionService;
+    }
+
     [Fact]
     public void SimpleString()
     {
@@ -12,7 +19,7 @@ public class SearchTests {
         string text = "bbaabb";
         int limit = 0;
         List<int> result = new List<int>([2]);
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -22,7 +29,7 @@ public class SearchTests {
         string text = "bbaabbaa";
         int limit = 0;
         List<int> result = new List<int>([2, 6]);
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -32,7 +39,7 @@ public class SearchTests {
         string text = "bbaaabb";
         int limit = 0;
         List<int> result = new List<int>([2, 3]);
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -42,7 +49,7 @@ public class SearchTests {
         string text = "bbaabb";
         int limit = 1;
         List<int> result = new List<int>([1, 2, 3]);
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -52,7 +59,7 @@ public class SearchTests {
         string text = "bbaabbaa";
         int limit = 1;
         List<int> result = new List<int>([1, 2, 3, 5, 6]);
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -62,7 +69,7 @@ public class SearchTests {
         string text = "the fat cat ate a large rat";
         int limit = 0;
         List<int> result = new List<int>([8]);
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -72,7 +79,7 @@ public class SearchTests {
         string text = "the fat cat ate a large rat";
         int limit = 1;
         List<int> result = new List<int>([4, 8, 11, 24]);
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -82,7 +89,7 @@ public class SearchTests {
         string text = "the fat cat ate a large rat";
         int limit = 2;
         List<int> result = new List<int>([4, 8, 11, 15, 18, 24]);
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -92,7 +99,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rat asl;kjd";
         int limit = 0;
         List<int> result = new List<int>([17]);
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
 
@@ -103,7 +110,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rat asl;kjd";
         int limit = 0;
         List<int> result = new List<int>();
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit, 18));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit, 18));
     }
 
         [Fact]
@@ -113,7 +120,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rat asl;kjd";
         int limit = 0;
         List<int> result = new List<int>();
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit, 18));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit, 18));
     }
 
 
@@ -125,7 +132,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat wivh eat asl;kjd";
         int limit = 0;
         List<int> result = new List<int>();
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -135,7 +142,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rag asl;kjd";
         int limit = 0;
         List<int> result = new List<int>();
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -145,7 +152,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rag asl;kjd";
         int limit = 0;
         List<int> result = new List<int>();
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -155,7 +162,7 @@ public class SearchTests {
         string text = "";
         int limit = 0;
         List<int> result = new List<int>();
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -165,7 +172,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rag asl;kjd";
         int limit = 0;
         List<int> result = new List<int>();
-        Assert.Throws<ArgumentException>(() => SearchDoc.findMatches(pattern, text, limit));
+        Assert.Throws<ArgumentException>(() => _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -175,7 +182,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rag asl;kjd";
         int limit = -1;
         List<int> result = new List<int>();
-        Assert.Throws<ArgumentException>(() => SearchDoc.findMatches(pattern, text, limit));
+        Assert.Throws<ArgumentException>(() => _submissionService.findMatches(pattern, text, limit));
     }
 
 
@@ -186,7 +193,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rag asl;kjd";
         int limit = 3;
         List<int> result = new List<int>();
-        Assert.Throws<ArgumentException>(() => SearchDoc.findMatches(pattern, text, limit));
+        Assert.Throws<ArgumentException>(() => _submissionService.findMatches(pattern, text, limit));
     } 
 
 
@@ -197,7 +204,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rag asl;kjd";
         int limit = 1;
         List<int> result = new List<int>();
-        Assert.Throws<ArgumentException>(() => SearchDoc.findMatches(pattern, text, limit, 55));
+        Assert.Throws<ArgumentException>(() => _submissionService.findMatches(pattern, text, limit, 55));
     } 
 
     [Fact]
@@ -207,7 +214,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rag asl;kjd";
         int limit = 1;
         List<int> result = new List<int>();
-        Assert.Throws<ArgumentException>(() => SearchDoc.findMatches(pattern, text, limit, 2, 77));
+        Assert.Throws<ArgumentException>(() => _submissionService.findMatches(pattern, text, limit, 2, 77));
     } 
 
     [Fact]
@@ -217,7 +224,7 @@ public class SearchTests {
         string text = "here asdfa ckjcv cat with rag asl;kjd";
         int limit = 1;
         List<int> result = new List<int>();
-        Assert.Throws<ArgumentException>(() => SearchDoc.findMatches(pattern, text, limit, -3));
+        Assert.Throws<ArgumentException>(() => _submissionService.findMatches(pattern, text, limit, -3));
     } 
 
 
@@ -229,7 +236,7 @@ public class SearchTests {
         string text = new string(' ', 200)+ "needle" + new string('a', 55) + "neadle" + new string('b', 55) + "neddle" + new string(' ', 200);
         int limit = 1;
         List<int> result = new List<int> { 200, 261, 322 };
-        Assert.Equal(result, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(result, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -242,7 +249,7 @@ public class SearchTests {
         {
             expected.Add(i);
         }
-        Assert.Equal(expected, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(expected, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -251,7 +258,7 @@ public class SearchTests {
         string text = new string('a', 1000) + "neadle" + new string('b', 1000);
         int limit = 5;
         var expected = new List<int> {996,  999, 1000, 1003, 1004 };
-        Assert.Equal(expected, SearchDoc.findMatches(pattern, text, limit));
+        Assert.Equal(expected, _submissionService.findMatches(pattern, text, limit));
     }
 
     [Fact]
@@ -261,7 +268,7 @@ public class SearchTests {
         var expected= new List<int> {1674, 2840};
         Directory.SetCurrentDirectory("/");
         string testFile = File.ReadAllText("/Users/thomas/Documents/SummerProject/pdf_search-server/PdfSearch/examples/txt_files/testGroup/test3.txt");
-        Assert.Equal(expected, SearchDoc.findMatches(pattern, testFile, limit));
+        Assert.Equal(expected, _submissionService.findMatches(pattern, testFile, limit));
     }
 
     [Fact]
@@ -271,7 +278,7 @@ public class SearchTests {
         var expected = new List<int> {1674, 2840};
         Directory.SetCurrentDirectory("/");
         string testFile = File.ReadAllText("/Users/thomas/Documents/SummerProject/pdf_search-server/PdfSearch/examples/txt_files/testGroup/test3.txt");
-        Assert.Equal(expected, SearchDoc.findMatches(pattern, testFile, limit));
+        Assert.Equal(expected, _submissionService.findMatches(pattern, testFile, limit));
     }
 
     [Fact]
@@ -281,30 +288,30 @@ public class SearchTests {
         var expected = new List<int> {1674};
         Directory.SetCurrentDirectory("/");
         string testFile = File.ReadAllText("/Users/thomas/Documents/SummerProject/pdf_search-server/PdfSearch/examples/txt_files/testGroup/test3.txt");
-        Assert.Equal(expected, SearchDoc.findMatches(pattern, testFile, limit, 500, 2000));
+        Assert.Equal(expected, _submissionService.findMatches(pattern, testFile, limit, 500, 2000));
     }
 
 
 
     [Fact]
-    public void BasicGetQuestion() {
+    public void BasicparseQuestion() {
         string text = '\n' + "Q1. ";
         var expected = new List<int> {0};
-        Assert.Equal(expected, SearchDoc.getQuestion(text, 1));
+        Assert.Equal(expected, _submissionService.parseQuestion(text, 1));
     }
 
     [Fact]
-    public void GetQuestionBothIndices() {
+    public void parseQuestionBothIndices() {
         string text = "Hello\n" + "Q1. This is Q1. \nQ2. This is next";
         var expected = new List<int> {5, 22};
-        Assert.Equal(expected, SearchDoc.getQuestion(text, 1));
+        Assert.Equal(expected, _submissionService.parseQuestion(text, 1));
     }
 
     [Fact]
     public void MultiIndicesLastIndex() {
         string text = "Hello\n" + "Q1. This is Q1. \nQ2. This is next";
         var expected = new List<int> {22};
-        Assert.Equal(expected, SearchDoc.getQuestion(text, 2));
+        Assert.Equal(expected, _submissionService.parseQuestion(text, 2));
     }
 
 
@@ -312,14 +319,14 @@ public class SearchTests {
     public void MultiIndicesHigherQeustion() {
         string text = "Hello\n" + "Q1. This is Q1. \nQ2. This is next \nQ3. \nQ4. \nQ5. ";
         var expected = new List<int> {45, 50};
-        Assert.Equal(expected, SearchDoc.getQuestion(text, 4));
+        Assert.Equal(expected, _submissionService.parseQuestion(text, 4));
     }
 
     [Fact]
     public void QuestionNotFound() {
         string text = "Hello\n" + "Q1. This is Q1. \nQ2. This is next \nQ3. \nQ4. \nQ5. ";
         var expected = new List<int> ();
-        Assert.Equal(expected, SearchDoc.getQuestion(text, 7));
+        Assert.Equal(expected, _submissionService.parseQuestion(text, 7));
     }
 
     [Fact]
@@ -327,7 +334,7 @@ public class SearchTests {
         var expected = new List<int> {83, 1695};
         Directory.SetCurrentDirectory("/");
         string testFile = File.ReadAllText("/Users/thomas/Documents/SummerProject/pdf_search-server/PdfSearch/examples/txt_files/testGroup/test3.txt");
-        Assert.Equal(expected, SearchDoc.getQuestion(testFile, 1));
+        Assert.Equal(expected, _submissionService.parseQuestion(testFile, 1));
     }
 
     [Fact]
@@ -335,7 +342,7 @@ public class SearchTests {
         var expected = new List<int> ();
         Directory.SetCurrentDirectory("/");
         string testFile = File.ReadAllText("/Users/thomas/Documents/SummerProject/pdf_search-server/PdfSearch/examples/txt_files/testGroup/test3.txt");
-        Assert.Equal(expected, SearchDoc.getQuestion(testFile, 0));
+        Assert.Equal(expected, _submissionService.parseQuestion(testFile, 0));
     }
 
     [Fact]
@@ -343,7 +350,7 @@ public class SearchTests {
         var expected = new List<int> {1695};
         Directory.SetCurrentDirectory("/");
         string testFile = File.ReadAllText("/Users/thomas/Documents/SummerProject/pdf_search-server/PdfSearch/examples/txt_files/testGroup/test3.txt");
-        Assert.Equal(expected, SearchDoc.getQuestion(testFile, 2));
+        Assert.Equal(expected, _submissionService.parseQuestion(testFile, 2));
     }
 
 
@@ -354,8 +361,8 @@ public class SearchTests {
         var expected = new List<int> {1674};
         Directory.SetCurrentDirectory("/");
         string testFile = File.ReadAllText("/Users/thomas/Documents/SummerProject/pdf_search-server/PdfSearch/examples/txt_files/testGroup/test3.txt");
-        List<int> bounds = SearchDoc.getQuestion(testFile, 1);
-        Assert.Equal(expected, SearchDoc.findMatches(pattern, testFile, limit, bounds[0], bounds[1]));
+        List<int> bounds = _submissionService.parseQuestion(testFile, 1);
+        Assert.Equal(expected, _submissionService.findMatches(pattern, testFile, limit, bounds[0], bounds[1]));
     }
 }
 

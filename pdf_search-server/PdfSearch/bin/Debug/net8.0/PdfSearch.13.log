@@ -1,3 +1,1 @@
-2024-07-08 16:42:33.2012|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-08 16:42:48.2894|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-08 16:43:30.7865|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(test, Name(test2.pdf))
+2024-07-09 13:18:18.8110|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdq), Pattern(induction), Limit(4)

@@ -4,6 +4,7 @@ using NLog;
 using pdf_search.Data;
 using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
+using System.Reflection;
 using pdf_search.Services.Interfaces;
 namespace pdf_search.Services.Implmentations;
 
@@ -19,9 +20,9 @@ public class SubmissionService : ISubmissionService {
     }
 
     public async Task uploadPdf(byte[] fileBytes, string pdfName, string group) {
-        
 
         string file = await parsePdf(fileBytes, pdfName);
+
 
 /*         // checks if the directory for the given group is null and initalizes one if it is not 
         initGroupDirectory(group); */
@@ -65,7 +66,6 @@ public class SubmissionService : ISubmissionService {
     static async Task<string> parsePdf(byte[] fileBytes, string pdfName) {
         //converts pdf to base64
         var content = Convert.ToBase64String(fileBytes);
-
         //initializes httpClient
         HttpClient httpClient = new HttpClient();
         httpClient.Timeout = new TimeSpan(1, 1, 1);
@@ -124,6 +124,7 @@ public class SubmissionService : ISubmissionService {
     public async Task<List<string>> getGroups() {
         return await _dbContext.Submissions
             .Select(s => s.batch)
+            .Distinct()
             .ToListAsync();
     }
 
@@ -131,6 +132,7 @@ public class SubmissionService : ISubmissionService {
     return await _dbContext.Submissions
         .Where(s => s.batch == group)
         .Select(s => s.name)
+        .Distinct()
         .ToListAsync();
     }
 
@@ -393,19 +395,34 @@ public class SubmissionService : ISubmissionService {
         string text;
         if (question == 0) {
             text = await getSubmission(group, name);
-            Console.Write(text);
         } else {
             text = await getQuestion(group, name, question);
-            Console.Write(text);
         }
 
         if (text == null || text.Length == 0) {
             throw new ArgumentException("Question " + question + " in group " + group + " and submission " + 
             name + " does not exist.");
         }
-        Console.Write(text);
         var indices = await  Task.Run(() => findMatches(pattern, text, limit));
         return indices;
+    }
+
+    public async Task<List<int>> getFilledQuestions(string group, string name) {
+        List<int> questions = new List<int>();
+        var submission = await _dbContext.Submissions
+            .Where(s => (s.batch == group && s.name == name))
+            .FirstOrDefaultAsync();
+        if (submission == null) {
+            return questions;
+        }
+        for (int i = 1; i < 11; ++i) {
+            string propertyName = "q" + i;
+            PropertyInfo? propertyInfo = typeof(Submissions).GetProperty(propertyName);
+            if (propertyInfo != null && propertyInfo.GetValue(submission) != null) {
+                questions.Add(i);
+            }
+        }
+        return questions;
     }
 }
 

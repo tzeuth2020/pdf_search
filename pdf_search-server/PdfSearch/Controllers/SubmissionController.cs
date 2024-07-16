@@ -88,7 +88,7 @@ public class SubmissionController : Controller {
     // returns the whole submission from a given name and group
     [HttpGet]
     public async Task<IActionResult> GetSubmission(string group, string name) {
-        Logger.Info($"/Submission/RetTxt - Group({group}, Name({name}))");
+        Logger.Info($"/Submission/GetSubmission - Group({group}, Name({name}))");
 
         var submission = await _submissionService.getSubmission(group, name);
 
@@ -99,7 +99,7 @@ public class SubmissionController : Controller {
     // returns as question from a text file from a given name and group
     [HttpGet]
     public async Task<IActionResult> GetQuestion(string group, string name, int question) {
-        Logger.Info($"/Submission/RetTxt - Group({group}, Name({name}))");
+        Logger.Info($"/Submission/GetQuestion - Group({group}), Name({name}), Question({question}))");
 
         var submission = await _submissionService.getQuestion(group, name, question);
 
@@ -108,6 +108,14 @@ public class SubmissionController : Controller {
     }
 
     
+    [HttpGet]
+    public async Task<IActionResult> GetFilledQuestions(string group, string name) {
+        Logger.Info($"/Submission/GetFilledQuestion - Group({group}), Name({name})");
 
+        var numbers = await _submissionService.getFilledQuestions(group, name);
+
+        return Ok(numbers);
+
+    }
     
 }    

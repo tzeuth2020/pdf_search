@@ -1,2 +1,1 @@
-2024-06-12 16:44:26.0600|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.txt), Pattern(expectation), Limit(1)
-2024-06-12 16:50:12.7313|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.txt), Pattern(probability), Limit(1)
+2024-06-27 17:06:11.2102|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test2.pdf), Group(test)

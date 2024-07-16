@@ -1,49 +1,21 @@
-using SubmissionServices;
+using pdf_search.Services.Interfaces;
+using pdf_search.Services.Implmentations;
+using pdf_search.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 namespace pdfSearch.Tests;
 
 public class FileUploadTests {
-    [Fact]
-    public async Task NormalSingleDoc()
-    {
-        Directory.SetCurrentDirectory("/");
-        Directory.SetCurrentDirectory("/Users/thomas/Documents/SummerProject/pdf_search-server/PdfSearch");
-        var pdfHandler = new PdfHandler();
-         
-        using (var testStream = new MemoryStream()) {
-            var testFile = File.Open("./examples/testDoc.pdf", FileMode.Open, FileAccess.ReadWrite);
-            testFile.CopyTo(testStream);
-            await pdfHandler.uploadPdf(testStream.ToArray(), "testFile1.pdf", "testGroup1");
-        }
-        Assert.True(Directory.Exists("./examples/txt_files/testGroup1"));
-        Assert.True(File.Exists("./examples/txt_files/testGroup1/testFile1.txt"));
-    }
 
-    [Fact]
-    public async Task BlankDoc()
-    {
-        Directory.SetCurrentDirectory("/");
-        Directory.SetCurrentDirectory("/Users/thomas/Documents/SummerProject/pdf_search-server/PdfSearch");
-        var pdfHandler = new PdfHandler();
-         
-        using (var testStream = new MemoryStream()) {
-            var testFile = File.Open("./examples/blank.pdf", FileMode.Open, FileAccess.ReadWrite);
-            testFile.CopyTo(testStream);
-            await pdfHandler.uploadPdf(testStream.ToArray(), "blankDoc.pdf", "testGroup1");
-        }
-        Assert.True(Directory.Exists("./examples/txt_files/testGroup1"));
-        Assert.True(File.Exists("./examples/txt_files/testGroup1/blankDoc.txt"));
-    }
 
-    [Fact]
-    public void InvalidFileName() {
-        Assert.True(PdfHandler.checkNameInvalid("thisfile/new"));
-        Assert.False(PdfHandler.checkNameInvalid("validName"));
+    private readonly ISubmissionService _submissionService;
+    public FileUploadTests(ISubmissionService submissionService) {
+        _submissionService = submissionService;
     }
 
     [Fact]
     public void checkZipExtensionSingleValid() {
+
         Directory.SetCurrentDirectory("/");
         Directory.SetCurrentDirectory("/Users/thomas/Documents/SummerProject/pdf_search-server/PdfSearch");
         var baseFile = File.Open("./examples/testDoc.pdf.zip", FileMode.Open, FileAccess.ReadWrite);
@@ -52,7 +24,7 @@ public class FileUploadTests {
             Headers = new HeaderDictionary(),
             ContentType = "application/zip"
         };
-        Assert.True(PdfHandler.checkZipExtension(testFile));
+        Assert.True(_submissionService.checkZipExtension(testFile));
     }
 
     [Fact]
@@ -65,7 +37,7 @@ public class FileUploadTests {
             Headers = new HeaderDictionary(),
             ContentType = "application/zip"
         };
-        Assert.True(PdfHandler.checkZipExtension(testFile));
+        Assert.True(_submissionService.checkZipExtension(testFile));
     }
 
     [Fact]
@@ -78,11 +50,9 @@ public class FileUploadTests {
             Headers = new HeaderDictionary(),
             ContentType = "application/zip"
         };
-        Assert.False(PdfHandler.checkZipExtension(testFile));
+        Assert.False(_submissionService.checkZipExtension(testFile));
     }
 
 
 
 }
-
-    

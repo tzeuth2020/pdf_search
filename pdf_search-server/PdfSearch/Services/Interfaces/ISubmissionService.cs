@@ -23,4 +23,6 @@ public interface ISubmissionService {
 
     public Task<List<int>> queryMatches(string group, string name, string pattern, int limit, int question = 0);
 
+    public Task<List<int>> getFilledQuestions(string group, string name);
+
 }
