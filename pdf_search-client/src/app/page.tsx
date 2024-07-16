@@ -7,28 +7,30 @@ import { NavNames } from "../components/NavNames";
 import { DocText } from "@/components/DocText";
 import { SearchBar } from "@/components/SearchBar";
 import config from "../config.json";
+import { UploadBox } from "@/components/FileUpload";
 
 
 export default function Home() {
-  const [groupNames, setGroupNames] = useState([]);
+  const [groupNames, setGroupNames] = useState<string[]>([]);
   const [activeGroup, setActiveGroup] = useState(-1);
-  const [activeName, setActiveName] = useState("undefined");
+  const [activeName, setActiveName] = useState<string | undefined>(undefined);
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [activePattern, setActivePattern] = useState("");
 
   const groupsRoute = `http://${config.server_host}:${config.server_port}/Submission/GroupNames`;
 
+  const fetchNames = async () => {
+    await fetch(groupsRoute)
+      .then(response => response.json())
+      .then(data => {
+          setGroupNames(data);
+      })
+      .catch(error => {
+          console.error('Error fetching names:', error);
+      });
+  }  
+
   useEffect(() =>  {
-    const fetchNames = async () => {
-      await fetch(groupsRoute)
-        .then(response => response.json())
-        .then(data => {
-            setGroupNames(data);
-        })
-        .catch(error => {
-            console.error('Error fetching names:', error);
-        });
-    }
       fetchNames();
     }, [groupsRoute]);
 
@@ -44,7 +46,7 @@ export default function Home() {
           {groupNames.map((name, index) => 
             <li key={index}>
               <button onClick={() => {
-                setActiveQuestion(0); setActiveName("undefined"); setActiveGroup(index)}}>{name}</button>
+                setActiveQuestion(0); setActiveName(undefined); setActiveGroup(index)}}>{name}</button>
               {activeGroup === index && 
               <div>
                 <NavNames group={name} activeName={activeName} setActiveName={setActiveName} setActiveQuestion={setActiveQuestion}/>
@@ -61,7 +63,9 @@ export default function Home() {
       </div>
 
       <div className="w-full">
-        <DocText group = {groupNames[activeGroup]} name = {activeName} question = {activeQuestion} pattern = {activePattern} />
+        {activeGroup !== -1 && activeName && (
+        <DocText group = {groupNames[activeGroup]} name = {activeName} question = {activeQuestion} pattern = {activePattern} /> )}
+        <UploadBox groupNames={groupNames} fetchGroupNames={fetchNames}/>
       </div>
 
   

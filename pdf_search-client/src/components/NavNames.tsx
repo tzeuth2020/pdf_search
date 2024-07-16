@@ -5,7 +5,7 @@ import { NavQuestions } from "./NavQuestions";
 
 interface NavNamesProps {
     group: string;
-    activeName: string;
+    activeName: string | undefined;
     setActiveName: (name: string) => void;
     setActiveQuestion: (question: number) => void;
 }
@@ -34,7 +34,7 @@ export const NavNames: React.FC<NavNamesProps> = ({ group, activeName, setActive
             {submissionNames.map((name, index) => 
             <li key={index}> 
                 <button onClick = {() => {setActiveQuestion(0); setActiveName(name)}}> {name} </button>
-                {activeName === name && <NavQuestions group = {group} name={activeName} setActiveQuestion={setActiveQuestion}/>}
+                {(activeName !== undefined && activeName === name) && <NavQuestions group = {group} name={activeName} setActiveQuestion={setActiveQuestion}/>}
             </li>)}
         </ul>
     )

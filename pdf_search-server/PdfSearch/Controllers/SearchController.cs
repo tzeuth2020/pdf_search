@@ -18,7 +18,7 @@ public class SearchController : Controller {
     optionally can specify start and end indices to search only part of the text  **/
     [HttpGet]
     public async Task<IActionResult> FindMatches
-        (string group, string name, string pattern, int limit, int question =0) {
+        (string group, string name, string pattern, int limit, int question = 0) {
         Logger.Info($"/Search/FindMatches - Group({group}), Name({name}), Pattern({pattern}), Limit({limit})");
         try {
            var indices = await _submissionService.queryMatches(group, name, pattern, limit, question);
