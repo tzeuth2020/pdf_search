@@ -1,3 +1,2 @@
-2024-06-12 17:00:16.1716|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.txt), Pattern(linearity of expectation), Limit(50)
-2024-06-12 17:00:27.9340|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.txt), Pattern(linearity of expectation), Limit(10)
-2024-06-12 17:00:41.6285|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.txt), Pattern(linearity of expectation), Limit(10)
+2024-06-20 13:09:25.8859|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test3.pdf), Group(test)
+2024-06-20 13:10:32.5504|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test2.pdf), Group(test)

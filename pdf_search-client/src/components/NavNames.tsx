@@ -33,7 +33,9 @@ export const NavNames: React.FC<NavNamesProps> = ({ group, activeName, setActive
         <ul>
             {submissionNames.map((name, index) => 
             <li key={index}> 
-                <button onClick = {() => {setActiveQuestion(0); setActiveName(name)}}> {name} </button>
+                <button className= "pl-16 text-white text-sans text-lg w-full text-left hover:bg-lighterTeal" onClick = {() => {setActiveQuestion(0); setActiveName(name)}}> 
+                    <span className="pl-4">{name}</span>
+                </button>
                 {(activeName !== undefined && activeName === name) && <NavQuestions group = {group} name={activeName} setActiveQuestion={setActiveQuestion}/>}
             </li>)}
         </ul>

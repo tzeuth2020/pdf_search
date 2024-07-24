@@ -48,7 +48,7 @@ export const DocText: React.FC<DocTextProps> = ({ group, name, question, pattern
         } else if (group && name) {
             fetchQuestiontext();
         }
-    }, [wholeDocRoute, questionRoute, question]);
+    }, [wholeDocRoute, questionRoute, question, group, name]);
 
 
     useEffect(() => {
@@ -99,17 +99,10 @@ export const DocText: React.FC<DocTextProps> = ({ group, name, question, pattern
     }, [indices, docText]);
 
     return(
-        <div>
-            <div>
+        <div className="bg-white shadow-dark min-h-screen">
+            <div className="px-16 py-12">
                 {textBasic.map((text, index) => {
-                    return (<span key={index}> {text} 
-                    {index < textHighlight.length && 
-                    <span className="bg-yellow-500">{textHighlight[index]}</span>
-                    }
-                    </span>)})}
-            </div>
-            <div>
-                {indices && indices.map((text, index) => <p key={index}>{text}</p>)}
+                    return (<span className="text-sm font-sans" key={index}>{text}{index < textHighlight.length && <span className="bg-yellow-500">{textHighlight[index]}</span>}</span>)})}
             </div>
         </div>
         

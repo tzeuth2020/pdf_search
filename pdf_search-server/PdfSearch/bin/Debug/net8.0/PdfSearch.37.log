@@ -1,3 +1,1 @@
-2024-06-18 13:47:40.6617|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(testGroup1, Name(blankDoc.txt))
-2024-06-18 13:48:17.2807|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(test, Name(testDoct.txt))
-2024-06-18 13:48:46.1960|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(test, Name(testDoc.txt))
+2024-06-27 17:14:07.8234|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test2.pdf), Group(test)

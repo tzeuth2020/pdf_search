@@ -31,7 +31,9 @@ export const NavQuestions: React.FC<NavQuestionsProps> = ({ group, name, setActi
         <ul>
             {submissionQuestions.map((name, index) => 
             <li key={index}> 
-                <button onClick = {() => setActiveQuestion(name)}> {name} </button>
+                <button className= "pl-16 text-white text-sans text-lg w-full text-left hover:bg-lighterTeal" onClick = {() => setActiveQuestion(name)}>
+                    <span className="pl-8">{"Q" + name}</span>
+                </button>
             </li>)}
         </ul>
     )

@@ -1,2 +1,5 @@
-2024-07-09 13:17:26.9863|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdq), Pattern(induction), Limit(4)
-2024-07-09 13:17:28.0503|ERROR|Controllers.SearchController|Sequence contains no elements.
+2024-07-10 15:35:26.1620|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test2.pdf), Group(test)
+2024-07-10 15:36:06.5950|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test3.pdf), Group(test)
+2024-07-10 15:36:28.1031|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(blank.pdf), Group(test)
+2024-07-10 15:38:34.7937|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-10 15:39:46.8311|INFO|Controllers.SubmissionController|/Submission/GroupNames

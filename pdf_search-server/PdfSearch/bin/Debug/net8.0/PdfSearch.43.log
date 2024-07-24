@@ -1,4 +1,3 @@
-2024-06-12 16:51:40.4755|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.txt), Pattern(probability), Limit(1)
-2024-06-12 16:55:10.5202|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.txt), Pattern(versatile), Limit(1)
-2024-06-12 16:55:21.6733|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.txt), Pattern(linearity of expectation), Limit(1)
-2024-06-12 16:56:24.9171|INFO|Controllers.SearchController|/Search/SearchDoc - Group(testGroup), Name(test3.dfsdfsdfsdf), Pattern(linearity of expectation), Limit(1)
+2024-06-18 13:47:40.6617|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(testGroup1, Name(blankDoc.txt))
+2024-06-18 13:48:17.2807|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(test, Name(testDoct.txt))
+2024-06-18 13:48:46.1960|INFO|Controllers.SubmissionController|/Submission/RetTxt - Group(test, Name(testDoc.txt))
