@@ -1,2 +1,5 @@
-2024-06-27 17:38:48.5759|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test2.pdf), Group(test)
-2024-06-27 17:39:04.5603|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test2.pdf), Group(test1)
+2024-07-08 12:14:40.7986|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-08 12:14:57.5712|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-08 12:15:19.8888|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-08 12:15:34.9197|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test1)
+2024-07-08 12:15:42.9051|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test3)

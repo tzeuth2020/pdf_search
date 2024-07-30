@@ -1,665 +1,157 @@
-2024-07-22 14:43:45.9970|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:48.0948|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:48.2358|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:48.5686|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:48.6214|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:48.6779|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:48.7276|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:48.8168|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.0340|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.0808|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.1325|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.1825|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.2350|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.3176|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.4101|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.4561|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.5909|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.6406|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.6901|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.7353|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.7852|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.8334|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.8838|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.9347|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:49.9841|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.1141|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.1648|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.2154|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.2611|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.3083|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.3552|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.4019|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.4489|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.4957|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.6058|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.6534|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.7005|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.7499|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.7954|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.8421|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.8887|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.9338|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:50.9804|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.0295|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.1685|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.2195|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.2489|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-22 14:43:51.2594|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.2985|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.3388|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.3788|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.4164|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.4562|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.4954|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.5339|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.6455|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.6843|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.7231|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.7649|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.8040|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.8432|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.8879|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.9268|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:51.9666|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.0094|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.0474|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.0963|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.1386|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.1781|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.2226|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.2624|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.3021|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.3420|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.3837|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.4286|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.4679|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.5077|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.5469|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.5871|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.6284|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.6695|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.7112|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.7525|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.7920|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.8307|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.8728|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.9117|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:52.9505|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.0019|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.0418|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.0789|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.1187|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.1570|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.1962|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.2415|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.2845|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.3251|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.3677|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.4079|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.4481|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.4876|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.5276|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.5674|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.6082|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.6606|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.6988|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.7375|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.7763|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.8165|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.8597|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.8977|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.9357|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:53.9759|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.0157|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.0560|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.0979|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.1407|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.1797|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.2303|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.2697|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.3083|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.3477|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.3862|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.4260|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.4677|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.5055|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.5454|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.5850|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.6260|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.6650|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.7055|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.7438|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.7828|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.8224|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.8613|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.8994|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.9410|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:54.9815|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.0263|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.0669|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.1048|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.1466|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.1886|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.2262|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.2674|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.3077|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.3493|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.3946|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.4354|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.4767|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.5156|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.5580|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.5975|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.6362|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.6771|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.7163|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.7570|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.8001|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.8390|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.8783|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.9187|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:55.9595|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.0025|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.0489|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.0876|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.1282|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.1777|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.2174|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.2560|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.3013|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.3442|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.3813|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.4202|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.4583|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.4960|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.5345|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.5721|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.6104|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.6503|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.6888|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.7274|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.7667|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.8046|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.8424|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.8815|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.9224|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:56.9609|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.0005|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.0396|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.0815|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.1216|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.1602|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.1985|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.2385|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.2773|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.3147|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.3550|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.3927|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.4312|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.4717|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.5123|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.5535|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.5946|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.6387|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.6800|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.7210|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.7597|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.7994|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.8409|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.8817|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.9217|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:57.9624|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.0039|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.0761|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.1181|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.1605|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.2069|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.2503|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.2919|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.3368|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.3776|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.4200|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.4609|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.5076|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.5486|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.5970|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.6422|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.6828|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.7271|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.7785|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.8224|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.8724|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.9196|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:58.9622|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.0040|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.0435|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.0897|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.1323|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.1721|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.2123|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.2518|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.2925|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.3327|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.3713|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.4104|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.4503|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.4884|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.5272|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.5671|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.6048|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.6440|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.6835|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.7241|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.7621|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.8021|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.8404|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.8784|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.9171|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.9551|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:43:59.9962|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.1866|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.2261|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.2640|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.3050|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.3441|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.3822|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.4215|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.4604|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.4991|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.5382|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.5810|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.6249|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.6824|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.7219|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.7623|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.8036|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.8421|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.8832|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.9235|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:00.9619|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.0011|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.0418|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.0813|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.1195|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.1588|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.1986|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.2369|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.2782|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.3231|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.3632|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.4026|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.4463|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.4879|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.5313|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.5716|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.6122|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.6551|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.6948|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.7354|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.7799|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.8189|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.8607|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.9014|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.9412|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:01.9831|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.0244|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.0663|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.1066|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.1534|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.1935|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.2376|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.2789|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.3180|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.3606|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.3999|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.4387|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.4784|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.5165|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.5571|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.5962|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.6365|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.6758|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.7153|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.7598|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.8006|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.8408|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.8789|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.9176|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.9573|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:02.9968|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.0349|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.0745|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.1139|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.1529|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.1917|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.2303|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.2709|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.3105|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.3480|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.3861|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.4266|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.4646|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.5077|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.5494|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.5896|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.6287|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.6684|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.7079|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.7471|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.7871|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.8256|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.8656|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.9056|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.9456|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:03.9878|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.0317|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.0693|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.1090|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.1485|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.1867|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.2298|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.2685|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.3075|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.3476|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.3875|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.4261|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.4667|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.5059|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.5439|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.5823|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.6249|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.6643|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.7029|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.7430|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.7837|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.8259|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.8684|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.9095|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.9487|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:04.9915|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.0312|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.0723|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.1155|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.1574|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.1983|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.2386|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.2839|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.3232|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.3633|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.4016|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.4401|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.4818|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.5197|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.5587|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.5988|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.6369|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.6802|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.7199|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.7599|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.7988|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.8408|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.8814|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.9200|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:05.9594|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.0010|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.0389|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.0788|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.1172|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.1560|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.1964|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.2349|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.2779|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.3173|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.3563|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.3954|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.4363|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.4773|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.5177|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.5596|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.6000|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.6434|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.6867|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.7263|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.7699|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.8089|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.8480|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.8860|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.9248|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:06.9645|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.0045|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.0455|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.0842|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.1240|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.1706|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.2203|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.2603|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.3020|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.3429|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.3829|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.4236|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.4636|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.5048|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.5454|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.5868|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.6276|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.6689|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.7099|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.7518|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.7917|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.8335|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.8756|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.9154|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:07.9643|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.0047|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.0469|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.0916|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.1337|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.1774|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.2188|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.2608|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.3008|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.3416|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.3810|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.4221|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.4625|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.5023|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.5401|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.5794|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.6186|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.6585|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.6990|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.7378|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.7792|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.8203|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.8623|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.9080|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.9551|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:08.9939|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.0334|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.0734|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.1209|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.1612|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.2007|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.2415|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.2810|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.3200|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.3597|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.4019|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.4421|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.4852|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.5272|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.5662|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.6062|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.6461|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.6873|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.7266|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.7675|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.8066|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.8465|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.8884|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.9290|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:09.9719|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.0124|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.0510|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.0937|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.1341|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.1748|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.2144|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.2584|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.2972|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.3349|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.3755|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.4176|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.4566|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.4982|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.5395|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.5795|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.6223|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.6628|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.7032|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.7490|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.7903|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.8301|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.8721|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.9110|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.9528|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:10.9943|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.0353|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.0738|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.1140|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.1548|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.2037|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.2467|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.2857|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.3273|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.3704|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.4097|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.4498|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.4915|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.5308|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.5698|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.6134|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.6633|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.7086|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.7496|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.7991|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.8396|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.8759|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
-2024-07-22 14:44:11.8794|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.9204|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:11.9639|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.0086|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.0509|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.0925|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.1360|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.1766|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.2188|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.2600|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.3013|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.3398|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.3815|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.4204|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.4619|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.5026|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.5440|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.5833|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.6257|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.6644|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.7056|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.7464|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.7854|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.8261|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.8699|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.9099|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.9491|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:12.9896|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.0300|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.0699|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.1109|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.1515|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.1919|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.2347|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.2741|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.3150|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.3563|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.3983|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.4396|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.4831|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.5231|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.5622|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.6020|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.6419|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.6825|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.7264|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.7667|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.8103|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.8518|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.8915|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.9321|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:13.9730|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:14.0129|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:14.0530|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:14.0960|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:44:14.1377|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:45:06.7483|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 14:45:13.0716|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-22 14:45:14.6066|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(blank.pdf)
-2024-07-22 14:45:14.6066|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(blank.pdf))
-2024-07-22 14:45:23.7850|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
-2024-07-22 14:45:23.7850|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
-2024-07-22 14:45:25.2198|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(1))
-2024-07-22 14:45:26.6852|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(3))
-2024-07-22 14:45:28.3244|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test3.pdf)
-2024-07-22 14:45:28.3244|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test3.pdf))
-2024-07-22 14:45:29.7083|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(DemoGroup)
-2024-07-22 14:45:31.2558|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
-2024-07-22 14:45:32.4233|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(test3.pdf)
-2024-07-22 14:45:32.4233|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(test3.pdf))
-2024-07-22 14:45:36.7364|INFO|Controllers.SearchController|/Search/FindMatches - Group(newerGroup), Name(test3.pdf), Pattern(djhflkasdjhf), Limit(4)
-2024-07-22 14:45:38.2251|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test3.pdf), Question(2))
-2024-07-22 14:45:38.2251|INFO|Controllers.SearchController|/Search/FindMatches - Group(newerGroup), Name(test3.pdf), Pattern(djhflkasdjhf), Limit(4)
-2024-07-22 14:45:39.7603|INFO|Controllers.SearchController|/Search/FindMatches - Group(newerGroup), Name(test3.pdf), Pattern(asdfa), Limit(1)
-2024-07-22 14:45:43.3659|INFO|Controllers.SearchController|/Search/FindMatches - Group(newerGroup), Name(test3.pdf), Pattern(space), Limit(1)
-2024-07-22 14:45:45.6680|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
-2024-07-22 14:45:46.3965|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(testDoc.pdf)
-2024-07-22 14:45:46.3965|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(testDoc.pdf))
-2024-07-22 14:45:50.3263|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(testDoc.pdf), Pattern(asd), Limit(1)
-2024-07-22 14:45:51.8943|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-22 14:45:52.3703|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
-2024-07-22 14:45:52.3713|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
-2024-07-22 14:45:55.3320|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(blank.pdf))
-2024-07-22 14:45:55.3320|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(blank.pdf)
-2024-07-22 14:45:56.9941|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
-2024-07-22 14:45:57.7075|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(testDoc.pdf)
-2024-07-22 14:45:57.7075|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(testDoc.pdf))
-2024-07-22 14:46:00.8766|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(testDoc.pdf), Pattern(asd), Limit(1)
-2024-07-22 14:46:04.1990|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(testDoc.pdf), Pattern(fds), Limit(1)
-2024-07-22 14:46:09.0409|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(testDoc.pdf), Pattern(v, and), Limit(2)
-2024-07-22 14:46:43.9655|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
-2024-07-22 14:46:47.3308|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(test3.pdf))
-2024-07-22 14:46:47.3308|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(test3.pdf)
-2024-07-22 14:46:48.1479|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(testDoc.pdf)
-2024-07-22 14:46:48.1479|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(testDoc.pdf))
-2024-07-22 14:46:49.7282|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(test3.pdf)
-2024-07-22 14:46:49.7284|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(test3.pdf))
-2024-07-22 14:46:51.2144|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test3.pdf), Question(2))
-2024-07-22 14:46:55.5839|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test3.pdf), Question(1))
-2024-07-22 14:46:55.9953|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test3.pdf), Question(2))
-2024-07-22 14:46:56.5063|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(testDoc.pdf)
-2024-07-22 14:46:56.5063|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(testDoc.pdf))
-2024-07-22 15:02:15.3420|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:04:05.1244|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:05:31.8469|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:16:02.1802|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:25:29.8318|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:33:39.7617|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:35:35.7832|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:38:01.3643|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:39:07.7039|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:44:07.2858|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:45:27.2170|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:47:41.8217|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:48:50.9826|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 15:49:30.3873|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 16:06:39.6483|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 09:49:10.0732|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-24 09:49:11.7730|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(test3.pdf)
+2024-07-24 09:49:11.7730|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(test3.pdf))
+2024-07-24 09:49:14.4213|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test3.pdf), Question(2))
+2024-07-24 09:49:17.7924|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test3.pdf), Question(1))
+2024-07-24 09:53:41.5054|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 09:53:44.6813|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 09:53:47.4881|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(blank.pdf))
+2024-07-24 09:53:47.4881|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(blank.pdf)
+2024-07-24 09:53:48.9466|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 09:53:48.9471|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 09:53:50.9301|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(3))
+2024-07-24 09:53:57.3334|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(blank.pdf))
+2024-07-24 09:53:57.3339|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(blank.pdf)
+2024-07-24 09:54:28.6421|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 09:54:31.2516|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 09:59:13.6993|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 09:59:15.1869|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 09:59:16.1482|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(blank.pdf)
+2024-07-24 09:59:16.1482|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(blank.pdf))
+2024-07-24 09:59:18.1003|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 09:59:18.1003|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 09:59:38.8214|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(NewGroup)
+2024-07-24 09:59:40.0297|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(NewGroup), Name(test3.pdf)
+2024-07-24 09:59:40.0304|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(NewGroup, Name(test3.pdf))
+2024-07-24 09:59:45.1561|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(NewGroup), Name(test3.pdf), Question(2))
+2024-07-24 09:59:46.2876|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(NewGroup), Name(test3.pdf), Question(1))
+2024-07-24 09:59:48.4232|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 09:59:49.3696|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 09:59:49.3711|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 09:59:50.2694|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(2))
+2024-07-24 09:59:50.9493|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(3))
+2024-07-24 10:04:08.7498|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(blank.pdf))
+2024-07-24 10:04:08.7498|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(blank.pdf)
+2024-07-24 10:04:09.8743|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 10:04:09.8743|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 10:08:25.9860|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(DemoGroup)
+2024-07-24 10:08:28.6169|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 10:08:29.4944|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-24 10:08:30.6450|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(NewGroup)
+2024-07-24 10:08:31.5806|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-24 10:08:32.3358|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 10:08:33.1386|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(DemoGroup)
+2024-07-24 10:08:33.9398|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 10:08:55.6626|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test3.pdf))
+2024-07-24 10:08:55.6626|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test3.pdf)
+2024-07-24 10:09:53.5494|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 10:09:57.5427|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 10:09:58.3593|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 10:09:58.3593|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 10:17:06.4471|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 10:18:09.3921|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 10:19:28.5529|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 10:20:08.1248|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 10:29:54.0026|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 10:29:56.1344|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 10:29:57.1587|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test3.pdf)
+2024-07-24 10:29:57.1588|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test3.pdf))
+2024-07-24 10:32:24.5668|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 10:32:26.9973|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-24 10:32:27.8514|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(test2.pdf))
+2024-07-24 10:32:27.8514|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(test2.pdf)
+2024-07-24 10:32:31.6303|INFO|Controllers.SearchController|/Search/FindMatches - Group(newerGroup), Name(test2.pdf), Pattern(since), Limit(1)
+2024-07-24 10:32:38.6456|INFO|Controllers.SearchController|/Search/FindMatches - Group(newerGroup), Name(test2.pdf), Pattern(falling), Limit(2)
+2024-07-24 10:32:45.2754|INFO|Controllers.SearchController|/Search/FindMatches - Group(newerGroup), Name(test2.pdf), Pattern(outside), Limit(2)
+2024-07-24 10:32:47.6628|INFO|Controllers.SearchController|/Search/FindMatches - Group(newerGroup), Name(test2.pdf), Pattern(outside), Limit(2)
+2024-07-24 10:32:47.6628|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test2.pdf), Question(2))
+2024-07-24 10:32:48.6544|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test2.pdf), Question(1))
+2024-07-24 10:32:49.5637|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(test3.pdf)
+2024-07-24 10:32:49.5647|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(test3.pdf))
+2024-07-24 10:32:50.4728|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test3.pdf), Question(2))
+2024-07-24 10:32:51.1920|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test3.pdf), Question(1))
+2024-07-24 10:56:46.7490|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 10:56:48.7254|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 10:56:53.1996|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test3.pdf)
+2024-07-24 10:56:53.1996|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test3.pdf))
+2024-07-24 11:02:53.1657|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 11:02:57.4331|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 11:02:58.5876|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
+2024-07-24 11:02:58.5877|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
+2024-07-24 12:27:10.3871|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 12:27:12.2739|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 12:27:13.5236|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
+2024-07-24 12:27:13.5236|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
+2024-07-24 12:35:13.4573|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 12:35:14.5981|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 12:35:15.1059|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(NewGroup)
+2024-07-24 12:35:16.2027|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 12:35:16.6527|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(DemoGroup)
+2024-07-24 12:35:17.1029|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 12:35:18.1043|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 12:35:18.1055|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 12:35:19.0352|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test3.pdf)
+2024-07-24 12:35:19.0352|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test3.pdf))
+2024-07-24 12:35:19.5619|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 12:38:21.1187|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
+2024-07-24 12:38:21.1187|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
+2024-07-24 12:38:22.2251|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(fixed), Name(test2.pdf), Question(2))
+2024-07-24 12:42:48.5087|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 12:43:07.0485|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 12:43:07.8965|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
+2024-07-24 12:43:07.8965|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
+2024-07-24 12:55:11.3485|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 12:55:13.0226|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 12:55:13.9595|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
+2024-07-24 12:55:13.9599|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
+2024-07-24 12:58:31.5591|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 12:58:33.3947|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 12:58:34.6979|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
+2024-07-24 12:58:34.6979|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
+2024-07-24 13:00:16.1762|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 13:00:20.4351|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 13:00:21.6427|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 13:00:21.6437|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 13:02:53.0389|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 13:02:53.0387|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 13:09:07.3528|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(2))
+2024-07-24 13:15:55.3535|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 13:16:13.6517|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(DemoGroup)
+2024-07-24 13:16:14.3981|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(DemoGroup), Name(test2.pdf)
+2024-07-24 13:16:14.3996|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(DemoGroup, Name(test2.pdf))
+2024-07-24 13:18:01.1975|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 13:18:08.5255|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 13:18:09.5132|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
+2024-07-24 13:18:09.5132|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
+2024-07-24 13:18:14.4217|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(fixed), Name(test2.pdf), Question(2))
+2024-07-24 13:18:19.5034|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(fixed), Name(test2.pdf), Question(3))
+2024-07-24 13:31:16.2115|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 13:31:17.6203|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 13:31:18.6025|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test3.pdf))
+2024-07-24 13:31:18.6029|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test3.pdf)
+2024-07-24 13:31:23.0389|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test3.pdf), Question(1))
+2024-07-24 13:31:27.7669|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test3.pdf), Question(2))
+2024-07-24 13:31:34.7763|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-24 13:31:36.0055|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
+2024-07-24 13:31:36.0055|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
+2024-07-24 13:50:29.7030|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(fixed), Name(test2.pdf), Question(2))
+2024-07-24 13:50:36.2724|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(DemoGroup)
+2024-07-24 16:01:02.0924|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-24 16:01:08.9491|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-24 16:01:10.6451|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 16:01:10.6461|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 16:01:17.5174|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(2))
+2024-07-24 16:01:19.5609|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(3))
+2024-07-24 16:01:22.2865|INFO|Controllers.SearchController|/Search/FindMatches - Group(test), Name(test2.pdf), Pattern(will), Limit(1)
+2024-07-24 16:11:38.2693|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test3.pdf)
+2024-07-24 16:11:38.2693|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test3.pdf))
+2024-07-24 16:12:09.2005|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 16:12:09.2005|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 16:12:49.5840|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 16:12:49.5840|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 16:19:33.3468|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(blank.pdf))
+2024-07-24 16:19:33.3468|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(blank.pdf)
+2024-07-24 16:19:33.9229|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-24 16:19:33.9230|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-24 16:19:34.9876|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(2))
+2024-07-24 16:19:35.8361|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(3))

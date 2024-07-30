@@ -1,18 +1,4 @@
-2024-07-10 15:42:36.3257|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-10 15:42:47.9192|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-10 15:45:59.6201|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-10 15:46:01.3804|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-10 15:46:07.2621|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
-2024-07-10 15:46:46.4032|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-10 15:46:48.1543|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
-2024-07-10 15:46:49.4008|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-10 15:46:50.5205|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
-2024-07-10 15:46:51.5062|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-10 15:58:42.7339|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-10 15:58:44.8240|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-10 15:59:18.1206|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-10 15:59:19.6653|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
-2024-07-10 16:50:16.4549|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-10 16:50:18.8306|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-10 16:51:55.6275|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
-2024-07-10 16:51:58.6051|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-11 09:52:29.3852|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-11 09:54:33.2213|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test3.pdf)
+2024-07-11 09:54:39.3011|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test.pdf)
+2024-07-11 09:55:48.4652|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test.pdf))

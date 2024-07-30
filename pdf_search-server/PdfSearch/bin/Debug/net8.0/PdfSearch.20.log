@@ -1,2 +1,3 @@
-2024-07-09 13:17:26.9863|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdq), Pattern(induction), Limit(4)
-2024-07-09 13:17:28.0503|ERROR|Controllers.SearchController|Sequence contains no elements.
+2024-07-09 13:21:42.5519|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdq), Pattern(induction), Limit(4)
+2024-07-09 13:41:33.8703|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-09 13:42:06.2891|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(asdfasdfa)

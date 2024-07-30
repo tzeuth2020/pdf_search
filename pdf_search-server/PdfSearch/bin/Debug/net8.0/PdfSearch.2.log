@@ -1,32 +1,74 @@
-2024-07-22 09:12:33.1391|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 09:12:39.7485|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-22 09:12:42.0841|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(DemoGroup)
-2024-07-22 09:12:42.9574|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
-2024-07-22 09:12:46.3757|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
-2024-07-22 09:12:46.3757|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
-2024-07-22 09:12:47.8708|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(fixed), Name(test2.pdf), Question(1))
-2024-07-22 09:12:49.0719|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(fixed), Name(test2.pdf), Question(2))
-2024-07-22 09:12:50.2484|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(fixed), Name(test2.pdf), Question(3))
-2024-07-22 09:12:51.3968|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
-2024-07-22 09:12:52.9098|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(DemoGroup)
-2024-07-22 09:12:53.3164|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
-2024-07-22 09:28:32.3892|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 09:31:01.5952|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 09:35:32.5757|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 10:32:45.0946|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 10:33:40.1647|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 10:42:57.1248|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:03:07.6081|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:04:15.5248|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:05:08.8489|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:20:54.9121|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:22:36.0958|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:22:53.3806|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:26:54.9427|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:28:03.8865|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:29:04.2671|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:29:07.2238|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:38:51.7921|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:40:46.0630|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:46:51.7178|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-22 11:49:46.1581|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 09:48:00.1204|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 09:50:03.1780|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 10:19:53.8895|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 10:22:17.9546|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 10:23:59.9482|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 10:32:37.4243|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 10:36:39.6860|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 10:39:01.9622|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 10:54:21.7059|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 10:56:15.1875|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 11:07:16.8449|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 11:08:23.4292|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-23 11:08:25.4884|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(testDoc.pdf)
+2024-07-23 11:08:25.4888|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(testDoc.pdf))
+2024-07-23 11:11:27.6473|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 11:13:57.9917|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-23 11:13:58.7052|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(test2.pdf)
+2024-07-23 11:13:58.7078|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(test2.pdf))
+2024-07-23 16:41:51.3182|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 16:41:53.6151|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 16:46:21.3042|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 16:46:28.4354|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-23 16:55:58.7150|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 16:56:00.5198|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-23 16:56:01.7714|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(NewGroup)
+2024-07-23 16:56:02.8074|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-23 16:56:03.6029|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(test2.pdf)
+2024-07-23 16:56:03.6029|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(test2.pdf))
+2024-07-23 16:56:05.4974|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(NewGroup)
+2024-07-23 16:56:06.4326|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-23 16:56:07.1105|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
+2024-07-23 16:56:07.1105|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
+2024-07-23 17:01:43.6854|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 17:01:46.7691|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-23 17:02:15.7793|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 17:03:10.9378|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 17:04:55.4059|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 17:06:17.2777|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 17:06:43.0329|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-23 17:06:44.7449|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-23 17:06:46.5672|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-23 17:06:47.7161|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(NewGroup)
+2024-07-23 17:06:48.4213|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(NewGroup, Name(testDoc.pdf))
+2024-07-23 17:06:48.4213|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(NewGroup), Name(testDoc.pdf)
+2024-07-23 17:07:03.5513|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-23 17:07:04.1913|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(newerGroup), Name(test2.pdf)
+2024-07-23 17:07:04.1913|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(newerGroup, Name(test2.pdf))
+2024-07-23 17:07:05.3886|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(newerGroup), Name(test2.pdf), Question(3))
+2024-07-23 17:11:02.8466|INFO|Controllers.SearchController|/Search/FindMatches - Group(newerGroup), Name(test2.pdf), Pattern(claim), Limit(1)
+2024-07-23 17:13:05.9163|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 17:14:01.0970|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 17:14:02.7243|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-23 17:14:04.0673|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(DemoGroup)
+2024-07-23 17:14:05.1790|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-23 17:14:08.6276|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(fixed), Name(test2.pdf)
+2024-07-23 17:14:08.6279|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(fixed, Name(test2.pdf))
+2024-07-23 17:14:10.7311|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-23 21:15:03.3135|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test3.pdf), Group(test)
+2024-07-23 21:15:07.2926|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-23 21:15:12.7137|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(test)
+2024-07-23 21:15:14.3173|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test3.pdf)
+2024-07-23 21:15:14.3223|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test3.pdf))
+2024-07-23 21:15:21.3673|INFO|Controllers.SearchController|/Search/FindMatches - Group(test), Name(test3.pdf), Pattern(since), Limit(1)
+2024-07-23 21:15:26.3971|INFO|Controllers.SearchController|/Search/FindMatches - Group(test), Name(test3.pdf), Pattern(sance), Limit(1)
+2024-07-23 21:15:37.3947|INFO|Controllers.SearchController|/Search/FindMatches - Group(test), Name(test3.pdf), Pattern(edch), Limit(1)
+2024-07-23 21:29:51.4036|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-23 21:29:51.4036|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test2.pdf))
+2024-07-23 21:29:51.4062|INFO|Controllers.SearchController|/Search/FindMatches - Group(test), Name(test2.pdf), Pattern(edch), Limit(1)
+2024-07-23 21:29:54.9194|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(1))
+2024-07-23 21:29:55.4345|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(test), Name(test2.pdf), Question(3))
+2024-07-23 21:30:18.9843|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(DemoGroup)
+2024-07-23 21:30:20.2405|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(fixed)
+2024-07-23 21:30:22.3078|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(newerGroup)
+2024-07-23 21:30:23.4023|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(NewGroup)
