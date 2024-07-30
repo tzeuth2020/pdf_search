@@ -38,9 +38,21 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseCors("AllowSpecificOrigin");
+app.UseCors("AllowAllOrigins");
 
 app.UseAuthorization();
+
+app.Use(async (context, next) =>
+{
+
+    var logger = app.Services.GetRequiredService<ILogger<Program>>();
+    logger.LogInformation("Handling request: {Method} {Path}", context.Request.Method, context.Request.Path);
+    
+
+    await next.Invoke();
+    
+    logger.LogInformation("Response: {StatusCode}", context.Response.StatusCode);
+});
 
 app.MapControllerRoute(
     name: "default",

@@ -1,7 +1,2 @@
-2024-07-09 13:11:16.7647|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdf), Pattern(expectation), Limit(4)
-2024-07-09 13:11:55.8137|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdf), Pattern(induction), Limit(4)
-2024-07-09 13:12:23.5241|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdf), Pattern(induction), Limit(4)
-2024-07-09 13:13:56.7516|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdq), Pattern(induction), Limit(4)
-2024-07-09 13:13:56.8474|ERROR|Controllers.SearchController|Sequence contains no elements.
-2024-07-09 13:15:24.8431|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdq), Pattern(induction), Limit(4)
-2024-07-09 13:15:24.9141|ERROR|Controllers.SearchController|Sequence contains no elements.
+2024-07-09 13:15:36.0645|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdq), Pattern(induction), Limit(4)
+2024-07-09 13:15:37.3019|ERROR|Controllers.SearchController|Sequence contains no elements.
