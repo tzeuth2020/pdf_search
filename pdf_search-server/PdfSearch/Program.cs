@@ -40,8 +40,6 @@ app.UseRouting();
 
 app.UseCors("AllowAllOrigins");
 
-app.UseAuthorization();
-
 app.Use(async (context, next) =>
 {
 
@@ -53,6 +51,7 @@ app.Use(async (context, next) =>
     
     logger.LogInformation("Response: {StatusCode}", context.Response.StatusCode);
 });
+
 
 app.MapControllerRoute(
     name: "default",
