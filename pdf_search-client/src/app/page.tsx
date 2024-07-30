@@ -12,6 +12,7 @@ import { UploadBox } from "@/components/FileUpload";
 
 Modal.setAppElement('#root');
 
+
 export default function Home() {
   const [groupNames, setGroupNames] = useState<string[]>([]);
   const [activeGroup, setActiveGroup] = useState(-1);
@@ -60,7 +61,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center" >
       <div className="bg-teal h-16 w-full flex items-center justify-start">
-          <button className="bg-teal ml-24 my-1 text-white text-xl font-bold font-sans px-4 py-2 justify-center border-darkTeal border-2 rounded-full hover:bg-lighterTeal hover:text-darkTeal" onClick={() =>setModalIsOpen(true)}>Upload</button>
+          <button className="bg-teal ml-24 my-1 text-white text-xl font-bold font-sans px-4 py-2 justify-center border-darkTeal border-2 rounded-full hover:bg-lighterTeal" onClick={() =>setModalIsOpen(true)}>Upload</button>
           <Modal 
             isOpen={modalIsOpen}
             onRequestClose={() => setModalIsOpen(false)}

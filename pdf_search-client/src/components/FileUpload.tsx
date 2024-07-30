@@ -68,17 +68,19 @@ export const UploadBox: React.FC<UploadBoxProps> = ({groupNames, fetchGroupNames
             <div className="flex flex-col items-center pb-3">
                 <h2 className="font-sans font-bold text-teal text-2xl ">Upload Files</h2>
             </div>
-            <div className = "input-group pb-2">
-                <label className = "justify-center font-sans font-semibold text-teal text-large" htmlFor="dropdown">Select a group:</label>
-                <select className = "justify-center font-sans border-b-2 border-teal text teal" id="dropdown" value={group ?? undefined} onChange={handleSelectChange}>
-                    <option className="font-sans" value = {undefined} >{undefined}</option>
-                    {groupNames.map((name, index) => <option className="font-sans text-teal text-xl" value={name} key={index + 1}>{name}</option> )}
-                    <option className="font-sans text-teal text-xl" value="new" >New...</option>
-                </select>
+            <div >
+                <div className = "input-group pb-2 flex flex-row items-center">
+                    <label className = "font-sans font-semibold text-teal text-right text-large w-1/2" htmlFor="dropdown">Select a group:</label>
+                    <select className = "font-sans border-b-2 border-teal text teal w-1/2" id="dropdown" value={group ?? undefined} onChange={handleSelectChange}>
+                        <option className="font-sans" value = {undefined} >{undefined}</option>
+                        {groupNames.map((name, index) => <option className="font-sans text-teal text-xl" value={name} key={index + 1}>{name}</option> )}
+                        <option className="font-sans text-teal text-xl" value="new" >New...</option>
+                    </select>
+                </div>
                 {showNewGroup && (
                     <input
                         type="text"
-                        className="font-sans text-teal text-xl"
+                        className="font-sans text-teal border-b-2 border-teal text-large w-full mt-2"
                         placeholder="New Group ..."
                         value = {group ?? ""}
                         onChange  = {(e) => (setGroup(e.target.value))}
