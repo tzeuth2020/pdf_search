@@ -10,6 +10,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
+var connectionString = builder.Configuration.GetConnectionString("PsqlConnectionInfo");
+var logger = LoggerFactory.Create(logging =>
+{
+    logging.AddConsole();
+}).CreateLogger<Program>();
+
+logger.LogInformation("Using connection string: {ConnectionString}", connectionString);
+
 builder.Services.AddDbContext<ApplicationDbContext>(options => 
     options.UseNpgsql(builder.Configuration.GetConnectionString("PsqlConnectionInfo"))
 );
