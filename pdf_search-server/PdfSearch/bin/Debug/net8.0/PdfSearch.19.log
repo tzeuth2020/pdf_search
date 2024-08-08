@@ -1,6 +1,1 @@
-2024-07-10 14:25:16.9545|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-10 14:26:28.1674|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-10 14:26:46.4085|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-10 14:27:38.2054|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-10 15:28:14.8511|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(testMultiple.zip), Group(test)
-2024-07-10 15:29:38.8021|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test2.pdf), Group(test)
+2024-07-10 15:42:00.7719|INFO|Controllers.SubmissionController|/Submission/GroupNames

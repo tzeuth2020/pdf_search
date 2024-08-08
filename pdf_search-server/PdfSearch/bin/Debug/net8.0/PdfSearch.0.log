@@ -1,1 +1,18 @@
-2024-07-30 14:31:50.7084|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-08-01 14:01:36.1716|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-08-01 14:02:08.7974|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(Homework 3)
+2024-08-01 14:02:10.1903|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(Homework 3), Name(test2.pdf)
+2024-08-01 14:02:10.1903|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(Homework 3, Name(test2.pdf))
+2024-08-01 14:02:17.2160|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(Homework 3), Name(test2.pdf), Question(1))
+2024-08-01 14:02:18.2913|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(Homework 3), Name(test2.pdf), Question(2))
+2024-08-01 14:02:19.5234|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(Homework 3), Name(test2.pdf), Question(3))
+2024-08-01 14:02:26.4789|INFO|Controllers.SearchController|/Search/FindMatches - Group(Homework 3), Name(test2.pdf), Pattern(prove), Limit(1)
+2024-08-01 14:02:30.9744|INFO|Controllers.SearchController|/Search/FindMatches - Group(Homework 3), Name(test2.pdf), Pattern(prave), Limit(1)
+2024-08-01 14:09:24.0929|INFO|Controllers.SearchController|/Search/FindMatches - Group(Homework 3), Name(test2.pdf), Pattern(prave), Limit(1)
+2024-08-01 14:09:24.0932|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(Homework 3, Name(test2.pdf))
+2024-08-01 14:09:27.3961|INFO|Controllers.SearchController|/Search/FindMatches - Group(Homework 3), Name(test2.pdf), Pattern(it), Limit(0)
+2024-08-01 14:09:32.9590|INFO|Controllers.SearchController|/Search/FindMatches - Group(Homework 3), Name(test2.pdf), Pattern(te), Limit(0)
+2024-08-01 14:10:44.5306|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-08-01 14:14:21.9255|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(Homework 3)
+2024-08-01 14:14:25.0743|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(Homework 3, Name(test3.pdf))
+2024-08-01 14:14:25.0743|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(Homework 3), Name(test3.pdf)
+2024-08-01 14:15:03.8320|INFO|Controllers.SubmissionController|/Submission/GetQuestion - Group(Homework 3), Name(test3.pdf), Question(1))

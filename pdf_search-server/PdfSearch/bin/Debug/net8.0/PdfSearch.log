@@ -1,1 +1,6 @@
-2024-07-30 14:45:07.9658|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-08-05 11:04:40.8488|INFO|Controllers.SearchController|/Search/FindMatches - Group('NewGroup'), Name('test2.pdf'), Pattern('proof'), Limit(2)
+2024-08-05 11:04:41.7119|ERROR|Controllers.SearchController|Question 0 in group 'NewGroup' and submission 'test2.pdf' does not exist.
+2024-08-05 11:07:56.2853|INFO|Controllers.SearchController|/Search/FindMatches - Group('NewGroup'), Name('test2.pdf'), Pattern('proof'), Limit(2)
+2024-08-05 11:07:56.3774|ERROR|Controllers.SearchController|Question 0 in group 'NewGroup' and submission 'test2.pdf' does not exist.
+2024-08-05 11:11:30.1760|INFO|Controllers.SearchController|/Search/FindMatches - Group(NewGroup), Name(test2.pdf), Pattern(proof), Limit(2)
+2024-08-05 11:11:34.4030|INFO|Controllers.SearchController|/Search/FindMatches - Group(NewGroup), Name(test2.pdf), Pattern(proof), Limit(2)

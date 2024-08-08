@@ -1,3 +1,1 @@
-2024-07-09 13:21:42.5519|INFO|Controllers.SearchController|/Search/FindMatches - Group(fixed), Name(test2.pdq), Pattern(induction), Limit(4)
-2024-07-09 13:41:33.8703|INFO|Controllers.SubmissionController|/Submission/GroupNames
-2024-07-09 13:42:06.2891|INFO|Controllers.SubmissionController|/Submission/TxtNames - Group(asdfasdfa)
+2024-07-10 15:34:11.4673|INFO|Controllers.SubmissionController|/Submission/Uplaod - UploadFile(test2.pdf), Group(test)

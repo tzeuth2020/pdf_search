@@ -145,6 +145,15 @@ public class SubmissionService : ISubmissionService {
         return submission;
     }
 
+    public async Task<DateOnly?> getDate(string group, string name) {
+        var submission = await _dbContext.Submissions
+            .Where(s => (s.batch == group && s.name == name))
+            .Select(s => s.date)
+            .FirstOrDefaultAsync();
+        submission = submission ?? throw new ArgumentException("invalid date selected");
+        return submission;
+    }
+
     public async Task<string> getQuestion(string group, string name, int number) {
         var submission = "";
         switch(number)
@@ -253,7 +262,9 @@ public class SubmissionService : ISubmissionService {
         await _dbContext.SaveChangesAsync();
     }
 
-
+    /** takes in a text and a pattern and returns a list of integers that are the indices in the text where the edit distance
+    of the string of the same length as the pattern starting at that distane is at most the limit, if start and end are specified
+    only the part of the text within the indices start and end are checked **/
     public List<int> findMatches(string pattern, string text, int limit, int start = 0, int end = -1) {
 
         List<int> indices = new List<int>();
@@ -269,12 +280,14 @@ public class SubmissionService : ISubmissionService {
         if (limit >= pattern.Length || limit < 0) {
             throw new ArgumentException("Limit is out of range");
         }
-
+        //initalizes charmap that has a bitmask for each character in the pattern
         Dictionary<int, int> charMap = new Dictionary<int, int>();
 
         char[] p = pattern.ToCharArray();
         char[] t = text.ToCharArray();
 
+
+        //makes bitmask all 1s if char is not there an a 0 at the position the char appears
         foreach (char c in p) {
             if (!charMap.ContainsKey(c)) {
                 charMap.Add(c, ~0);
@@ -295,6 +308,7 @@ public class SubmissionService : ISubmissionService {
         for (int i = 0; i < R.Length; i ++) {
             R[i] = ~1;
         }
+        // iterates through the text keeping limit + 1 bit maps for each edit distance away if the last one has a 0 then there is a fuzzy match 
         for (int i = start; i < stop; i++) {
             int old_Rd1 = R[0];
 
@@ -308,6 +322,7 @@ public class SubmissionService : ISubmissionService {
 
             for (int d = 1; d <= limit; d++) {
                 int tmp = R[d];
+
                 R[d] = (old_Rd1 & (R[d] | charMap[textByte])) << 1;
                 old_Rd1 = tmp;
             }

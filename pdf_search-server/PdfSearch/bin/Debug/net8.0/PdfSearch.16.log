@@ -1,1 +1,4 @@
-2024-07-10 15:42:00.7719|INFO|Controllers.SubmissionController|/Submission/GroupNames
+2024-07-11 09:52:29.3852|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test2.pdf)
+2024-07-11 09:54:33.2213|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test3.pdf)
+2024-07-11 09:54:39.3011|INFO|Controllers.SubmissionController|/Submission/GetFilledQuestion - Group(test), Name(test.pdf)
+2024-07-11 09:55:48.4652|INFO|Controllers.SubmissionController|/Submission/GetSubmission - Group(test, Name(test.pdf))
